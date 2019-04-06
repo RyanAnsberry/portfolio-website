@@ -3349,6 +3349,11 @@ input, select, textarea {
 			width: 55em;
 		}
 
+		#banner .inner img {
+			width:15%;
+			border-radius: 10%;
+		}
+
 		#banner .logo {
 			-moz-transition: opacity 2s ease, -moz-transform 1s ease;
 			-webkit-transition: opacity 2s ease, -webkit-transform 1s ease;
@@ -3754,6 +3759,7 @@ input, select, textarea {
 			}
 
 			.wrapper.spotlight .image {
+				border-radius: 10%;
 				margin: 0 3em 2em 0;
 				width: 22em;
 				overflow: hidden;
@@ -3761,6 +3767,7 @@ input, select, textarea {
 			}
 
 				.wrapper.spotlight .image img {
+					border-radius: 10%;
 					width: 100%;
 				}
 
